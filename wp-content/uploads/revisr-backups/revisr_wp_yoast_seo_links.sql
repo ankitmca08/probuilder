@@ -25,7 +25,6 @@ CREATE TABLE `wp_yoast_seo_links` (
 
 LOCK TABLES `wp_yoast_seo_links` WRITE;
 /*!40000 ALTER TABLE `wp_yoast_seo_links` DISABLE KEYS */;
-INSERT INTO `wp_yoast_seo_links` VALUES (1,'#',6862517,0,'internal');
 /*!40000 ALTER TABLE `wp_yoast_seo_links` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
