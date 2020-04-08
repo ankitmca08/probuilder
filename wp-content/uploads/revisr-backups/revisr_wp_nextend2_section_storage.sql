@@ -23,7 +23,7 @@ CREATE TABLE `wp_nextend2_section_storage` (
   PRIMARY KEY (`id`),
   KEY `application` (`application`,`section`,`referencekey`),
   KEY `application_2` (`application`,`section`)
-) ENGINE=MyISAM AUTO_INCREMENT=17940 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=18095 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_nextend2_section_storage` WRITE;

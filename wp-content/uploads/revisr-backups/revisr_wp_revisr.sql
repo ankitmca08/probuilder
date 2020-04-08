@@ -19,12 +19,12 @@ CREATE TABLE `wp_revisr` (
   `event` varchar(42) NOT NULL,
   `user` varchar(60) DEFAULT NULL,
   UNIQUE KEY `id` (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
+) ENGINE=MyISAM AUTO_INCREMENT=13 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `wp_revisr` WRITE;
 /*!40000 ALTER TABLE `wp_revisr` DISABLE KEYS */;
-INSERT INTO `wp_revisr` VALUES (1,'2020-04-06 05:14:35','Successfully created a new repository.','init','rohit');
+INSERT INTO `wp_revisr` VALUES (1,'2020-04-06 05:14:35','Successfully created a new repository.','init','rohit'),(2,'2020-04-06 10:32:29','Successfully backed up the database.','backup','rohit'),(3,'2020-04-06 10:33:52','Error staging files.','error','rohit'),(4,'2020-04-06 10:33:52','Committed <a href=\"http://shlokinfotech.com/probuilder/wp-admin/admin.php?page=revisr_view_commit&commit=01c3f1c&success=true\">#01c3f1c</a> to the local repository.','commit','rohit'),(5,'2020-04-06 10:33:52','Error pushing changes to the remote repository.','error','rohit'),(6,'2020-04-06 10:46:29','Error pushing changes to the remote repository.','error','probuilder'),(7,'2020-04-06 10:50:08','Error pushing changes to the remote repository.','error','probuilder'),(8,'2020-04-08 09:29:51','Error pushing changes to the remote repository.','error','rohit'),(9,'2020-04-08 09:35:03','Error staging files.','error','rohit'),(10,'2020-04-08 09:35:03','There was an error committing the changes to the local repository.','error','rohit'),(11,'2020-04-08 11:25:50','Error pushing changes to the remote repository.','error','probuilder'),(12,'2020-04-08 11:41:13','Error pushing changes to the remote repository.','error','probuilder');
 /*!40000 ALTER TABLE `wp_revisr` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
